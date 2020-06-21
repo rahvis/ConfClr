@@ -1,8 +1,9 @@
 # ConfClr
 Conformal Prediction Framework for Binary Classification
-https://pypi.org/project/ConfClr
 
 This is an implemention of Conformal Classificaiotn algorithm mentioned in the book - “Algorithmic Learning in Andom World”.
+
+https://pypi.org/project/ConfClr
 
 Input: Dataset (binary) label.
 
