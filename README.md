@@ -1,14 +1,17 @@
 # ConfClr
+Conformal Prediction Framework for Binary Classification
 
-This is an implemention of Conformal Classificaiotn algorithm mentioned in the book - ìAlgorithmic Learning in Andom Worldî.
+This is an implemention of Conformal Classificaiotn algorithm mentioned in the book - ‚ÄúAlgorithmic Learning in Andom World‚Äù.
 
-Input: Dataset with two labels.
+Input: Dataset (binary) label.
 
 Algorithms:
+    Calculate Non-Coformity Measure using K-NN.
+    Determine p-values according to the significance level.
+    Calculate Confidence and Credibility of each new data level.
 
-Calculate Non-Coformity Measure using K-NN.
-Determine p-values according to the significance level.
-Calculate Confidence and Credibility of each new data level.
+# Install
+$ pip install ConfClr
 
 # Usage
 $ python ConfClr.py
